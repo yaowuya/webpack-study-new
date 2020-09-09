@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 99b66cc10789364ca0252361fe2eaae1a828c133
 function add(x, y) {
   return x + y;
 }

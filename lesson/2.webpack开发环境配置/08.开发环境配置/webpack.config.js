@@ -36,7 +36,10 @@ module.exports = {
           name: '[hash:10].[ext]',
           // 关闭es6模块化
           esModule: false,
+<<<<<<< HEAD
           //设置图片资源打包后存放位置
+=======
+>>>>>>> 99b66cc10789364ca0252361fe2eaae1a828c133
           outputPath: 'imgs'
         }
       },
@@ -51,7 +54,10 @@ module.exports = {
         loader: 'file-loader',
         options: {
           name: '[hash:10].[ext]',
+<<<<<<< HEAD
           //设置其他资源打包后存放位置
+=======
+>>>>>>> 99b66cc10789364ca0252361fe2eaae1a828c133
           outputPath: 'media'
         }
       }
