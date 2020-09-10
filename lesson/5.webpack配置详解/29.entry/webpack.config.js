@@ -19,21 +19,21 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
       --> 特殊用法
         {
           // 所有入口文件最终只会形成一个chunk, 输出出去只有一个bundle文件。
-          index: ['./src/index.js', './src/count.js'], 
+          index: ['./src/index.js', './src/count.js'],
           // 形成一个chunk，输出一个bundle文件。
           add: './src/add.js'
         }
 */
 
 module.exports = {
-  entry: {
-    index: ['./src/index.js', './src/count.js'], 
-    add: './src/add.js'
-  },
-  output: {
-    filename: '[name].js',
-    path: resolve(__dirname, 'build')
-  },
-  plugins: [new HtmlWebpackPlugin()],
-  mode: 'development'
+	entry: {
+		index: ['./src/index.js', './src/count.js'],
+		add: './src/add.js',
+	},
+	output: {
+		filename: '[name].js',
+		path: resolve(__dirname, 'build'),
+	},
+	plugins: [new HtmlWebpackPlugin()],
+	mode: 'development',
 };
